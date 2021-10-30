@@ -14,4 +14,14 @@ public class Click : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
     }
+
+    public void Retarn()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+
+    public void Rizart()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
 }

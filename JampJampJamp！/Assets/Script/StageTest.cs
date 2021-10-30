@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StageTest : MonoBehaviour
 {
-    int StageSize = 6;
+    int StageSize = 4;
     int StageIndex;
 
     public Transform Target;//Unitychan
