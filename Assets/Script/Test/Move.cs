@@ -48,7 +48,7 @@ public class Move : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
         _stay = true;
         if(collision.gameObject.tag == "Item")
@@ -63,7 +63,7 @@ public class Move : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionExit(Collision collision)
     {
         _stay = false;
     }
