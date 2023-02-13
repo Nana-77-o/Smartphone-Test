@@ -25,7 +25,6 @@ public class SelectPlayer : MonoBehaviour
     {
         _playerIndex = playerNum;
         _textObj.SetActive(true);
-        Debug.Log(_playerIndex);
     }
 
     public void GameStartButton()
